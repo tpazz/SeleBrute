@@ -6,6 +6,25 @@ SeleBrute addresses this challenge by simulating real user interactions within a
 
 > Note: Use this tool responsibly and only with explicit permission from the system owner or within authorized testing environments.
 
+### Usage
+Supports locating elements by ```id```, ```xpath``` or ```cssSelector```:
+```bash
+python3 SeleBrute.py \
+  --driver-path /home/kali/Downloads/geckodriver \
+  --browser "firefox" \
+  --url "http://192.168.1.1/index.php" \
+  --username "admin" \
+  --passwords-file /usr/share/wordlists/rockyou.txt \
+  --username-locator-strategy "id" \
+  --username-locator-value "fm_usr" \
+  --password-locator-strategy "id" \
+  --password-locator-value "fm_pwd" \
+  --loginbutton-locator-strategy "xpath" \
+  --loginbutton-locator-value "//button" \
+  --max-attempts 1000 \
+  --headless 
+```
+
 Below is the high level flow of actions SeleBrute performs when attempting online-brute forcing:
 
 <p align="center">
