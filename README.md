@@ -8,4 +8,6 @@ SeleBrute addresses this challenge by simulating real user interactions within a
 
 Below is the high level flow of actions SeleBrute performs when attempting online-brute forcing:
 
-![image](https://github.com/user-attachments/assets/d085688f-c06c-4cc0-b038-0be7683f4dca)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d085688f-c06c-4cc0-b038-0be7683f4dca" height="800" />
+</p>
