@@ -5,9 +5,14 @@ SeleBrute is a Selenium based tool designed for brute forcing form based authent
 SeleBrute addresses this challenge by simulating real user interactions within a WebDriver, automatically handling dynamic elements such as tokens or CSRF parameters. However, this approach involves a significant trade-off in speed, achieving an average rate of only about 2 password attempts / second in headless mode. Still looking for that free lunch.
 
 > Note: Use this tool responsibly and only with explicit permission from the system owner or within authorized testing environments.
-
+### Setup
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install selenium
+```
 ### Usage
-Supports locating elements by ```id```, ```xpath``` or ```cssSelector```:
+Supports locating elements by ```id```, ```xpath``` or ```name```:
 ```bash
 python3 SeleBrute.py \
   --driver-path /home/kali/Downloads/geckodriver \
