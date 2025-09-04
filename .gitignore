@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+*.txt
+geckodriver.exe
+chromedriver-win64/
