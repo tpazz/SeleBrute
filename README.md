@@ -48,7 +48,7 @@ playwright install
 
 ### Usage
 
-Both scripts share the same command-line interface.
+Both scripts share the same command-line interface (see [CommandUsage](https://github.com/tpazz/SeleBrute/blob/main/CommandUsage.md) for full list).
 
 #### **Brute Force (Fast Mode)**
 
