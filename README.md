@@ -14,6 +14,8 @@ This browser-based approach involves a significant trade-off in speed. In headle
 
 > Still looking for that free lunch.
 
+#### Example of User Simulation mode (~ 0.2 password attempts per second):
+
 ![selebrute](https://github.com/user-attachments/assets/7ff0632a-22d3-4d35-94b1-7bb7b3d77727)
 
 ### Key Features
